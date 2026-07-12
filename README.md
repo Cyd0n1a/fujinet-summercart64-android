@@ -36,7 +36,7 @@ void SC64StorageDevice::handle_rom_load(const SC64CommandPacket &cmd)
                         _rom_buffer + offset, 
                         _rom_buffer + offset + chunk);
         
-        // Send to SC64```
+        // Send to SC64
         SYSTEM_BUS.send_response(resp);
     }
-}
+}```
